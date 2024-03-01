@@ -1,4 +1,5 @@
 import Layout from "@/Layout/Layout";
+import Hero from "@/components/Hero";
 import { Navigate, createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
@@ -8,7 +9,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div>Home component coming</div>,
+        element: <Hero /> ,
       },
     ],
   },
