@@ -30,7 +30,7 @@ const MobileNav = () => {
           )}
         </SheetTitle>
         <Separator />
-        <SheetDescription className="flex">
+        <SheetDescription className="flex flex-col gap-2">
           {isAuthenticated ? (
             <MobileNavLinks></MobileNavLinks>
           ) : (

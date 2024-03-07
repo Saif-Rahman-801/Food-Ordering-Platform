@@ -3,9 +3,9 @@ import { Button } from "./ui/button";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const MobileNavLinks = () => {
-    const {logout} = useAuth0()
+  const { logout } = useAuth0();
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       <Link to="/user-profile" className="flex bg-white items-center font-bold">
         user-profile
       </Link>
